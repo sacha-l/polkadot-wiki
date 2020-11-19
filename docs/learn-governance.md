@@ -304,7 +304,7 @@ it will be left to the stakeholders _en masse_ to determine the fate of the prop
 A proposal can be blacklisted by Root origin (e.g. sudo or Council). A blacklisted proposal and its
 related referendum (if any) is immediately [canceled](#canceling). Additionally, a blacklisted
 proposal's hash cannot re-appear in the proposal queue. Blacklisting is useful when removing
-removing erroneous proposals that could be submitted with the same hash, i.e.
+erroneous proposals that could be submitted with the same hash, i.e.
 [proposal #2](https://polkascan.io/polkadot/democracy/proposal/2) in which the submitter used plain
 text to make a suggestion. Upon seeing their proposal removed, a submitter who is not properly
 introduced to the democracy system of Polkadot might be tempted to re-submit the same proposal. That
@@ -328,9 +328,9 @@ councillors based on the vote configurations of all voters. The election also ch
 of runners up (currently 19 on Kusama and 20 on Polkadot) that will remain in the queue with their
 votes intact.
 
-As opposed to a "first past the post", where voters must decide only on a single candidate chosen
+As opposed to a "first-past-the-post" electoral system, where voters must decide only on a single candidate chosen
 from a list, a Phragmén election is a more expressive way to indicate voters' views. Token holders
-can treat it as Yes or No voting to support as many candidates as they want. The election algorithm
+can treat it as a way to support as many candidates as they want. The election algorithm
 will find a fair subset of the candidates that closely matches the expressed indications of the
 electorate as a whole.
 
@@ -430,8 +430,6 @@ is your responsibility to make a strong case for why the change should be made.
 - [Democracy Pallet](https://github.com/paritytech/substrate/tree/master/frame/democracy/src)
 - [Governance Demo](https://www.youtube.com/watch?v=VsZuDJMmVPY&feature=youtu.be&t=24734) - Dr.
   Gavin Wood presents the initial governance structure for Polkadot. (Video)
-- [Governance on Polkadot](https://www.crowdcast.io/e/governance-on-polkadot--) - A webinar
-  explaining how governance works in Polkadot and Kusama.
 - [Governance on Polkadot](https://www.crowdcast.io/e/governance-on-polkadot--) - An explanation of
   how governance works in Polkadot and Kusama, with Bill Laboon.
 
